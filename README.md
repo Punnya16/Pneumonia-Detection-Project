@@ -4,13 +4,16 @@ Medical imaging and artificial intelligence (AI) are revolutionizing healthcare.
 ## Problem Statement
 The task is to build an AI model capable of detecting lung opacities (a key symptom of pneumonia)
 from medical images. The model should:
+
 • Identify pneumonia cases based on chest X-ray images.
 • Locate lung opacities by drawing bounding boxes on affected regions.
 • Classify images into categories based on the presence of pneumonia.
+
 Context
 • Medical images are stored in DICOM format (*.dcm), which contain metadata and pixel data.
 • The dataset contains annotated images with bounding boxes that mark pneumonia regions.
 • Some images may have abnormalities but no pneumonia, making classification more challenging.
+
 Dataset Information
 The dataset used in this project comes from the RSNA Pneumonia Detection Challenge and consists of:
 • Chest X-ray images in DICOM format.
